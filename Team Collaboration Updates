@@ -1,0 +1,47 @@
+# Team Collaboration Updates
+
+## Daily Standup Updates
+
+### Day 1
+- Discussed project requirements
+- Designed API security architecture
+- Assigned authentication tasks
+
+### Day 2
+- Implemented Spring Security configuration
+- Developed JWT authentication module
+- Started role-based access control
+
+### Day 3
+- Completed API authorization setup
+- Integrated secured endpoints
+- Began Kafka/RabbitMQ setup
+
+### Day 4
+- Configured producer and consumer services
+- Tested asynchronous communication
+- Reviewed API security implementation
+
+### Day 5
+- Performed endpoint testing using Postman
+- Fixed authorization issues
+- Completed project documentation
+
+## Team Responsibilities
+
+| Team Member | Responsibility |
+|-------------|---------------|
+| Developer | Backend API development |
+| Team Lead | Architecture and review |
+| QA Engineer | API testing |
+| DevOps Engineer | Deployment and CI/CD |
+
+## Agile Activities
+- Daily Standups
+- Sprint Planning
+- Code Reviews
+- Testing Validation
+- Documentation Review
+
+## Final Outcome
+The team successfully completed secure API implementation, messaging integration, endpoint testing, and documentation preparation.
