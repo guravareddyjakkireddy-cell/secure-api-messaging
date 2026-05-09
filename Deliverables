@@ -1,0 +1,36 @@
+## 1. Secure APIs with Authentication
+Implemented Spring Security authentication for REST APIs.
+
+### Completed Work
+- Added login endpoint
+- Generated JWT token
+- Validated JWT token
+- Protected secured APIs
+
+## 2. Role-Based Access Control
+
+### Roles
+- ADMIN
+- MANAGER
+- USER
+
+### Permissions
+- ADMIN can access all APIs
+- MANAGER can manage tasks
+- USER can view assigned tasks
+
+## 3. Messaging Integration
+
+### Completed Work
+- Configured Producer
+- Configured Consumer
+- Sent asynchronous messages
+- Verified message processing
+
+## 4. API Security
+
+### Secured Endpoints
+- User APIs
+- Task APIs
+- Admin APIs
+- Messaging APIs
