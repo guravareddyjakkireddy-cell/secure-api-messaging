@@ -1,0 +1,23 @@
+# Week 7 Expectations
+
+## 1. Secure Coding Practices
+The application follows secure coding standards to prevent unauthorized access and secure API communication.
+
+## 2. Proper Authentication
+JWT authentication is implemented for validating users before accessing APIs.
+
+## 3. Proper Authorization
+Role-based authorization is implemented to provide controlled access to APIs.
+
+## 4. API Protection
+All sensitive APIs are protected using Spring Security configurations.
+
+## 5. Endpoint Testing
+Endpoints are tested using Postman with:
+- Valid token
+- Invalid token
+- Missing token
+- Different user roles
+
+## 6. Messaging Validation
+Kafka or RabbitMQ messaging is tested successfully using producer and consumer communication.
