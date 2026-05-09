@@ -1,0 +1,28 @@
+# Messaging Integration Documentation
+
+## Purpose
+Messaging is implemented to support asynchronous communication between services.
+
+## Messaging Technology
+- Kafka
+OR
+- RabbitMQ
+
+## Components
+
+### Producer
+The producer sends messages to the queue/topic.
+
+### Consumer
+The consumer receives and processes messages.
+
+## Sample Use Case
+When a task is created, a message is sent asynchronously to notify another service.
+
+## Sample Message
+
+{
+  "taskId": 101,
+  "taskName": "Secure APIs",
+  "status": "CREATED"
+}
