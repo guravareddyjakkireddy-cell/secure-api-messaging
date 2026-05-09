@@ -1,0 +1,30 @@
+# API Security Documentation
+
+## Authentication Process
+
+1. User sends login request.
+2. System validates username and password.
+3. JWT token is generated.
+4. User sends JWT token in Authorization header.
+5. Spring Security validates token.
+6. Access is granted for valid users.
+
+## Authorization Header
+
+Authorization: Bearer <JWT_TOKEN>
+
+## API Access Rules
+
+| Endpoint | Access Role |
+|-----------|-------------|
+| /api/auth/login | Public |
+| /api/tasks | USER, MANAGER, ADMIN |
+| /api/tasks/create | MANAGER, ADMIN |
+| /api/admin/users | ADMIN |
+
+## Security Features
+- JWT Authentication
+- Password Encryption
+- Stateless Authentication
+- API Protection
+- Role-Based Access Control
