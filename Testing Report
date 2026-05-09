@@ -1,0 +1,35 @@
+# Testing Report
+
+## Testing Tools
+- Postman
+- Kafka Console / RabbitMQ Dashboard
+- Application Logs
+
+## Authentication Testing
+
+| Test Case | Expected Result | Status |
+|------------|----------------|--------|
+| Valid Login | JWT Token Generated | Passed |
+| Invalid Login | Unauthorized Access | Passed |
+
+## Authorization Testing
+
+| Test Case | Expected Result | Status |
+|------------|----------------|--------|
+| Access with Valid Role | Access Granted | Passed |
+| Access with Invalid Role | Forbidden Access | Passed |
+
+## API Security Testing
+
+| Test Case | Expected Result | Status |
+|------------|----------------|--------|
+| API without Token | Unauthorized | Passed |
+| API with Invalid Token | Unauthorized | Passed |
+| API with Valid Token | Success | Passed |
+
+## Messaging Testing
+
+| Test Case | Expected Result | Status |
+|------------|----------------|--------|
+| Producer Send Message | Message Sent | Passed |
+| Consumer Receive Message | Message Received | Passed |
